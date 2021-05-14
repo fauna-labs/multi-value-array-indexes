@@ -1,0 +1,4 @@
+Create(Collection('sessions'), { data: { name: 'Partnering with Fauna', levels: ['Gold', 'Silver'] } } )
+Create(Collection('sessions'), { data: { name: 'Getting started with Fauna', levels: ['Gold', 'Silver', 'Open'] } } )
+Create(Collection('sessions'), { data: { name: 'Mastering Fauna', levels: ['Gold'] } } )
+Create(Collection('sessions'), { data: { name: 'Listening to customers', levels: ['Internal'] } } )

@@ -1,0 +1,23 @@
+// See all the Gold sessions - should be three with test data
+Map(
+  Paginate(Match(Index("sessions_by_level"), "Gold")),
+  Lambda("session", Get(Var("session")))
+)
+
+// See all the Silver sessions - should be two with test data
+Map(
+  Paginate(Match(Index("sessions_by_level"), "Silver")),
+  Lambda("session", Get(Var("session")))
+)
+
+// See all the Open sessions - should be one with test data
+Map(
+  Paginate(Match(Index("sessions_by_level"), "Open")),
+  Lambda("session", Get(Var("session")))
+)
+
+// See all the Internal sessions - should be one with test data
+Map(
+  Paginate(Match(Index("sessions_by_level"), "Internal")),
+  Lambda("session", Get(Var("session")))
+)

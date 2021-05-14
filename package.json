@@ -1,0 +1,32 @@
+{
+  "name": "multi-value-array-indexes",
+  "version": "0.1.0",
+  "description": "A complete example of implementing multi-value array indexes using the Fauna Schema Migrate tool",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fauna-labs/multi-value-array-indexes.git"
+  },
+  "keywords": [
+    "MVA",
+    "multi-value",
+    "arrays",
+    "indexes",
+    "FQL",
+    "GraphQL",
+    "Fauna"
+  ],
+  "author": "Rob Sutter <rob.sutter@fauna.com>",
+  "license": "MIT-0",
+  "bugs": {
+    "url": "https://github.com/fauna-labs/multi-value-array-indexes/issues"
+  },
+  "homepage": "https://github.com/fauna-labs/multi-value-array-indexes#readme",
+  "dependencies": {
+    "fauna-schema-migrate": "^2.1.2",
+    "faunadb": "^4.2.0"
+  }
+}

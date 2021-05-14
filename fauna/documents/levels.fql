@@ -1,0 +1,4 @@
+Create(Collection('levels'), { data: { name: 'Gold' } } )
+Create(Collection('levels'), { data: { name: 'Silver' } } )
+Create(Collection('levels'), { data: { name: 'Open' } } )
+Create(Collection('levels'), { data: { name: 'Internal' } } )
