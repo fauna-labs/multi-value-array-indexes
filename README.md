@@ -42,7 +42,7 @@ Perform the following steps in order to create a database, create the required c
 
     **IMPORTANT**: If you copy and paste the below to load the secret into your environment, be sure to include the leading space before `export` to avoid storing the secret in your shell's history.
     ```bash
-     export FAUNA_ADMIN_KEY=&lt;secret&gt;
+     export FAUNA_ADMIN_KEY=<secret>
     ```
 
 Every key is uniquely associated to a single database. Using this key will set the context or scope of operations to your `mva-indexes` database.
