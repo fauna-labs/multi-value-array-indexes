@@ -4,7 +4,7 @@ This repository contains unofficial patterns, sample code, or tools to help deve
 
 # Multi-value array indexes
 
-This repository contains a simple example of building and querying multi-value array indexes.
+This repository contains a simple example of building and querying multi-value array (MVA) indexes.
 
 ## Resources
 
